@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-using UnityEngine;
-
-[CreateAssetMenu]
-public class FloatData : ScriptableObject
-{
-    public float value;
-}
-=======
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -25,4 +16,4 @@ public class FloatData : ScriptableObject
         value += num;
     }
 }
->>>>>>> 468da88795b4ef8f581e04cd049cfc86140cd065
+
