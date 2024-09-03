@@ -9,5 +9,12 @@ public class TriggerEventBehaviour : MonoBehaviour
     {
         triggerEnterEvent.Invoke();
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Destroy(gameObject);
+    }
+
+    
 }
 
