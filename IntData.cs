@@ -1,12 +1,11 @@
 using UnityEngine;
-[CreateAssetMenu(fileName = "New Int Data", menuName = "Int Data")]
-public class IntData : MonoBehaviour
+[CreateAssetMenu]
+public class IntData : ScriptableObject
 {
-    [SerializeField] private int value;
+    public int value;
 
-    public int Value
+    public void UpdateValue(int num)
     {
-        get { return value; }
-        set { this.value = value; }
+        value += num;
     }
 }
